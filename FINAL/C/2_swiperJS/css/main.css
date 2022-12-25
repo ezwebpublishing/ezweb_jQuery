@@ -1,0 +1,64 @@
+.swiper {
+    max-width: 600px;
+    width:80%;
+    margin:2rem auto;
+}
+.swiper img{
+    width: 100%;
+}
+.swiper-parent{
+    width: 600px;
+    margin:2rem auto;
+    position: relative;
+}
+.swiper-parent .button-prev,
+.swiper-parent .button-next{
+    position: absolute;
+    top:50%;
+    transform:translateY(-50%);
+    font-size: 1.2em;
+    font-weight: bold;   
+    z-index:2;
+    background: #444;
+    color:#fff;
+    padding: 5px 10px;
+}
+.swiper-parent .button-prev {
+    left: -50px;
+}
+.swiper-parent .button-next {
+    right: -50px;
+}
+
+
+
+.multiple-swiper,
+.responsive-swiper {
+    max-width: 80%;
+}
+.multiple-swiper img,
+.responsive-swiper img{
+    width: 100%;
+}
+
+
+
+.control-swiper2 .prev,
+.control-swiper2 .next{
+    position: absolute;
+    top:50%;
+    transform:translateY(-50%);    
+    background-repeat:no-repeat;
+    width: 40px;
+    height: 40px;   
+    text-indent: -9999px;
+    cursor: pointer;
+}
+.control-swiper2 .prev {
+    left: -20px;
+    background-image: url('../images/left.png');
+}
+.control-swiper2 .next {
+    right: -20px;
+    background-image: url('../images/right.png');
+}

@@ -1,0 +1,136 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: bold;
+    font-size: 1.2em;
+	margin:20px 0;
+}
+img{
+    vertical-align: top;
+}
+.basic-slide img{
+    width: 100%;
+}
+.slide-wrapper{
+    width: 600px;
+    margin:0 auto;
+    position: relative;
+}
+
+.custom-controller3{
+	position: relative;
+}
+.custom-controller3 .controls span a{
+	width: 40px;
+	height: 40px;
+	background-repeat:no-repeat;
+	text-indent:-9999em;
+	display: block;
+	position: absolute;
+	top:50%;
+}
+.custom-controller3 .controls .bx-prev{
+	background-image: url('../images/left.png');
+	left:-60px;
+}
+.custom-controller3 .controls .bx-next{
+	background-image: url('../images/right.png');
+	right:-60px;
+}
+
+.mypager .bx-pager{
+	position: absolute;
+	left: 0;right: 0;
+	display: flex;
+	justify-content: center;
+	bottom: 20px;
+}
+.mypager .bx-pager .bx-pager-item {
+	margin:0 10px;
+}
+.mypager .bx-pager .bx-pager-item a{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	text-indent: -9999em;
+	background: #fff; 
+	display: block;
+}
+.mypager .bx-pager .bx-pager-item a.active{
+	background: #000;
+}
+
+.multiple-slide img{
+	width: 100%;
+}
+
+.active-slide li{
+	position: relative;
+}
+.active-slide li h3{
+	position: absolute;
+	left: 50%;top: 50%;
+	transform:translate(-50%,-50%);
+	padding:10px 20px;
+	background: rgba(0,0,0,.8);
+	color: #fff;
+	opacity: 0;
+	transition: opacity 0.5s 0.2s;
+}
+
+/* .active-slide li[aria-hidden="false"] h3{
+	opacity: 1;
+} */
+.active-slide li.active h3{
+	opacity: 1;
+}
+
+.movie-slide li{
+	height: 400px;
+	background:#000;
+}
+.movie-slide video, movie-slide img{
+	width: 100%;	
+}
