@@ -1,7 +1,6 @@
 ### ezweb_jQuery
 ##jquery 기초 및 활용 기본서입니다.
-강의 노트는 크몽을 통해서 구매하실수 있습니다.
-강의 노트 구매: https://kmong.com/@Ezweb
+강의 노트 구매 : https://ezwebpub.com/source/
 
 
 ##자료 목차 (총 156페이지)
