@@ -12,6 +12,6 @@ img.click(function(e){
 });
 
 
-// lightbox.on('click',function(){
-//     lightbox.removeClass('visible');
-// });
+lightbox.on('click',function(){
+   lightbox.removeClass('visible');
+});
